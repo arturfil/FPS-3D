@@ -11,13 +11,14 @@ public class Bullet : MonoBehaviour
     public int damage = 5;
 
     private float lifeCounter;
-    private bool ShotByPlayer {
+    private bool shotByPlayer;
+    public bool ShotByPlayer {
         // Getters and Setters
         get {
-            return ShotByPlayer;
+            return shotByPlayer;
         } 
         set{
-            ShotByPlayer = value;
+            shotByPlayer = value;
         }
     }
 
